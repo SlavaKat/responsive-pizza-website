@@ -34,10 +34,15 @@ const scrollHeader = () =>{
     this.scrollY >= 50 ? header.classList.add('shadow-header')
                        : header.classList.remove('shadow-header')
 }
-window.addEventListener('scroll', shadowHeader)
+window.addEventListener('scroll', scrollHeader)
 
 /*=============== SWIPER POPULAR ===============*/
-
+const swiperPopular = new Swiper('.popular__swiper',{
+    loop: true,
+    grabCursor: true,
+    slidesPerView: 'auto',
+    centeredSlides: 'auto',
+})
 
 /*=============== SHOW SCROLL UP ===============*/ 
 

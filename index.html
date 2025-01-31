@@ -7,16 +7,16 @@
       <!--=============== FAVICON ===============-->
       <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-      <!--=============== REMIXICONS ===============-->
+      <!--=============== REMIX ICONS ===============-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
 
       <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Responsive pizza website - Bedimcode</title>
+      <title>Responsive Pizza Website</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
@@ -121,7 +121,38 @@
 
          <!--==================== POPULAR ====================-->
          <section class="popular section" id="popular">
-            
+            <div class="popular__container container grid">
+               <div class="popular__data">
+                  <h2 class="section__title">Discover <br> Popular Orders</h2>
+
+                  <p class="popular__description">
+                     Select the best prepared and delicious flavors. 
+                     We have collected some popular recipes from around 
+                     the world for you to choose your favorite.
+                  </p>
+               </div>
+
+               <div class="popular__swiper swiper">
+                  <img src="assets/img/popular-dish.png" alt="image" class="popular__dish">
+
+                  <div class="swiper-wrapper">
+                     <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular-1.png" alt="image" class="popular__img">
+                        <h3 class="popular__title">Margherita Pizza</h3>
+                     </article>
+
+                     <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular-2.png" alt="image" class="popular__img">
+                        <h3 class="popular__title">Mushroom Pizza</h3>
+                     </article>
+
+                     <article class="popular__card swiper-slide">
+                        <img src="assets/img/popular-3.png" alt="image" class="popular__img">
+                        <h3 class="popular__title">Pepperoni Pizza</h3>
+                     </article>
+                  </div>
+               </div>
+            </div>
          </section>
 
          <!--==================== RECIPE ====================-->
@@ -148,11 +179,11 @@
       <!--========== SCROLL UP ==========-->
 
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+      <!--=============== SCROLL REVEAL JS ===============-->
+      <script src="https://unpkg.com/scrollreveal"></script>
       
       <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
+      <script src="assets/js/swiper-bundle.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
