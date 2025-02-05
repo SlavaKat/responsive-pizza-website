@@ -1037,5 +1037,46 @@ img {
   }
   .contact__title{
     font-size: var(--h2-font-size);
-  }  
+  }
+  .contact__social{
+    justify-content: initial;
+  } 
+  .contact__sticker-1,
+  .contact__sticker-2,
+  .contact__sticker-3{
+    width: 50px;
+  }
+  .contact__sticker-1{
+    left: 4rem;
+  }
+  .contact__sticker-2{
+    right: 4rem;
+    top: 8rem;
+    bottom: 0;
+  }
+  .contact__sticker-3{
+    left: 10rem;
+    bottom: 4rem;
+  }
+  
+  .footer{
+    padding-bottom: 3rem;
+  }
+  .footer__content{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer__content div:nth-child(3){
+    grid-column: initial;
+  }
+  .footer__content div:nth-child(2){
+    order: 1;
+    justify-self: end;
+  }
+  .footer__content div:nth-child(1){
+    justify-self: start;
+  }
+
+  .scrollup{
+    right: 3rem;
+  }
 }
