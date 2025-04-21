@@ -27,26 +27,32 @@
                Pizza
             </a>
 
+            <!-- Language Switch Buttons -->
+             <div class="nav__lang">
+               <button class="lang-btn" data-lang="en">EN</button>
+               <button class="lang-btn" data-lang="ru">RU</button>
+            </div>
+
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li>
-                     <a href="#home" class="nav__link active-link">Home</a>
+                     <a href="#home" class="nav__link active-link" data-lang-key="nav_1">Home</a>
                   </li>
 
                   <li>
-                     <a href="#about" class="nav__link">About Us</a>
+                     <a href="#about" class="nav__link" data-lang-key="nav_2">About Us</a>
                   </li>
 
                   <li>
-                     <a href="#popular" class="nav__link">Popular</a>
+                     <a href="#popular" class="nav__link" data-lang-key="nav_3">Popular</a>
                   </li>
 
                   <li>
-                     <a href="#products" class="nav__link">Products</a>
+                     <a href="#products" class="nav__link" data-lang-key="nav_4">Products</a>
                   </li>
 
                   <li>
-                     <a href="#contact" class="nav__link">Contact</a>
+                     <a href="#contact" class="nav__link" data-lang-key="nav_5">Contact</a>
                   </li>
                </ul>
 
@@ -69,15 +75,15 @@
          <section class="home section" id="home">
             <div class="home__container container grid">
                <div class="home__data">
-                  <h1 class="home__title">Crispy And <br> Delicious Pizzas</h1>
+                  <h1 class="home__title" data-lang-key="welcome">Crispy And <br> Delicious Pizzas</h1>
 
-                  <p class="home__description">
+                  <p class="home__description" data-lang-key="description">
                      Order the best pizzas to end your hunger 
                      and make your family moments more 
                      memorable, place your order now.
                   </p>
 
-                  <a href="#products" class="button">Order Pizza Now</a>
+                  <a href="#products" class="button" data-lang-key="button_1">Order Pizza Now</a>
 
                   <img src="assets/img/sticker-pizza.svg" alt="image" class="home__sticker-1">
                   <img src="assets/img/sticker-leaf.svg" alt="image" class="home__sticker-2">
@@ -101,16 +107,16 @@
          <section class="about section" id="about">
             <div class="about__container container grid">
                <div class="about__data">
-                  <h2 class="section__title">Learn More About <br> Our History</h2>
+                  <h2 class="section__title" data-lang-key="aboutTitle">Learn More About <br> Our History</h2>
 
-                  <p class="about__description">
+                  <p class="about__description" data-lang-key="aboutDescription">
                      The secret to success is the best ingredients 
                      to make a better pizza. Today we strive for 
                      perfection, just as we have been doing for 15 years 
                      when we first opened the pizzeria in Lima - Peru.
                   </p>
 
-                  <a href="#popular" class="button">The Best Pizzas</a>
+                  <a href="#popular" class="button" data-lang-key="button_2" >The Best Pizzas</a>
 
                   <img src="assets/img/sticker-cheese.svg" alt="image" class="about__sticker">
                </div>
@@ -123,9 +129,9 @@
          <section class="popular section" id="popular">
             <div class="popular__container container grid">
                <div class="popular__data">
-                  <h2 class="section__title">Discover <br> Popular Orders</h2>
+                  <h2 class="section__title" data-lang-key="popularTitle">Discover <br> Popular Orders</h2>
 
-                  <p class="popular__description">
+                  <p class="popular__description" data-lang-key="popularDescription">
                      Select the best prepared and delicious flavors. 
                      We have collected some popular recipes from around 
                      the world for you to choose your favorite.
@@ -138,17 +144,17 @@
                   <div class="swiper-wrapper">
                      <article class="popular__card swiper-slide">
                         <img src="assets/img/popular-1.png" alt="image" class="popular__img">
-                        <h3 class="popular__title">Margherita Pizza</h3>
+                        <h3 class="popular__title" data-lang-key="popular_1">Margherita Pizza</h3>
                      </article>
 
                      <article class="popular__card swiper-slide">
                         <img src="assets/img/popular-2.png" alt="image" class="popular__img">
-                        <h3 class="popular__title">Mushroom Pizza</h3>
+                        <h3 class="popular__title" data-lang-key="popular_2">Mushroom Pizza</h3>
                      </article>
 
                      <article class="popular__card swiper-slide">
                         <img src="assets/img/popular-3.png" alt="image" class="popular__img">
-                        <h3 class="popular__title">Pepperoni Pizza</h3>
+                        <h3 class="popular__title" data-lang-key="popular_3">Pepperoni Pizza</h3>
                      </article>
                   </div>
                </div>
@@ -157,7 +163,7 @@
 
          <!--==================== RECIPE ====================-->
          <section class="recipe section">
-            <h2 class="section__title">Fresh And <br> Natural Ingredients</h2>
+            <h2 class="section__title" data-lang-key="ingredients">Fresh And <br> Natural Ingredients</h2>
 
             <div class="recipe__container container grid">
                <div class="recipe__list grid">
@@ -165,8 +171,8 @@
                      <img src="assets/img/recipe-flour.png" alt="" class="recipe__image">
 
                      <div>
-                        <h3 class="recipe__name">Flour</h3>
-                        <p class="recipe__description">The best wheat from the field for the best flour.</p>
+                        <h3 class="recipe__name" data-lang-key="recipe_1">Flour</h3>
+                        <p class="recipe__description" data-lang-key="recipe__description_1">The best wheat from the field for the best flour.</p>
                      </div>
                   </div>
 
@@ -174,8 +180,8 @@
                      <img src="assets/img/recipe-cheese.png" alt="" class="recipe__image">
 
                      <div>
-                        <h3 class="recipe__name">Cheese</h3>
-                        <p class="recipe__description">Indulge in cheese for a healthy future.</p>
+                        <h3 class="recipe__name" data-lang-key="recipe_2">Cheese</h3>
+                        <p class="recipe__description" data-lang-key="recipe__description_2">Indulge in cheese for a healthy future.</p>
                      </div>
                   </div>
 
@@ -183,8 +189,8 @@
                      <img src="assets/img/recipe-sauces.png" alt="" class="recipe__image">
 
                      <div>
-                        <h3 class="recipe__name">Sauces</h3>
-                        <p class="recipe__description">Add a touch of salsa to your life and it will taste better.</p>
+                        <h3 class="recipe__name" data-lang-key="recipe_3">Sauces</h3>
+                        <p class="recipe__description" data-lang-key="recipe__description_3">Add a touch of salsa to your life and it will taste better.</p>
                      </div>
                   </div>
 
@@ -192,8 +198,8 @@
                      <img src="assets/img/recipe-tomato.png" alt="" class="recipe__image">
 
                      <div>
-                        <h3 class="recipe__name">Vegetables</h3>
-                        <p class="recipe__description">Vegetables full of the essence of nature and organic.</p>
+                        <h3 class="recipe__name" data-lang-key="recipe_4">Vegetables</h3>
+                        <p class="recipe__description" data-lang-key="recipe__description_4">Vegetables full of the essence of nature and organic.</p>
                      </div>
                   </div>
 
@@ -201,8 +207,8 @@
                      <img src="assets/img/recipe-meat.png" alt="" class="recipe__image">
 
                      <div>
-                        <h3 class="recipe__name">Meats</h3>
-                        <p class="recipe__description">The best fresh meats for your health.</p>
+                        <h3 class="recipe__name" data-lang-key="recipe_5">Meats</h3>
+                        <p class="recipe__description" data-lang-key="recipe__description_5">The best fresh meats for your health.</p>
                      </div>
                   </div>
                </div>
@@ -213,14 +219,14 @@
 
          <!--==================== PRODUCTS ====================-->
          <section class="products section" id="products">
-            <h2 class="section__title">The Most <br> Devoured Pizzas</h2>
+            <h2 class="section__title" data-lang-key="section__title">The Most <br> Devoured Pizzas</h2>
 
             <div class="products__container container grid">
                <article class="products__card">
                   <img src="assets/img/product-1.png" alt="image" class="products__img">
 
-                  <h3 class="products__name">Vegetarian <br> Pizza</h3>
-                  <span class="products__price">$15</span>
+                  <h3 class="products__name" data-lang-key="products__name_1">Vegetarian <br> Pizza</h3>
+                  <span class="products__price" data-lang-key="products__price_1" >$15</span>
 
                   <button class="products__button">
                      <i class="ri-shopping-bag-3-fill"></i>
@@ -230,8 +236,8 @@
                <article class="products__card">
                   <img src="assets/img/product-2.png" alt="image" class="products__img">
 
-                  <h3 class="products__name">Pepperoni <br> Pizza</h3>
-                  <span class="products__price">$10</span>
+                  <h3 class="products__name" data-lang-key="products__name_2">Pepperoni <br> Pizza</h3>
+                  <span class="products__price" data-lang-key="products__price_2">$10</span>
 
                   <button class="products__button">
                      <i class="ri-shopping-bag-3-fill"></i>
@@ -241,8 +247,8 @@
                <article class="products__card">
                   <img src="assets/img/product-3.png" alt="image" class="products__img">
 
-                  <h3 class="products__name">Margherita <br> Pizza</h3>
-                  <span class="products__price">$12</span>
+                  <h3 class="products__name" data-lang-key="products__name_3">Margherita Pizza</h3>
+                  <span class="products__price" data-lang-key="products__price_3">$12</span>
 
                   <button class="products__button">
                      <i class="ri-shopping-bag-3-fill"></i>
@@ -252,8 +258,8 @@
                <article class="products__card">
                   <img src="assets/img/product-4.png" alt="image" class="products__img">
 
-                  <h3 class="products__name">Mushroom <br> Pizza</h3>
-                  <span class="products__price">$17</span>
+                  <h3 class="products__name" data-lang-key="products__name_4">Mushroom <br> Pizza</h3>
+                  <span class="products__price" data-lang-key="products__price_4">$17</span>
 
                   <button class="products__button">
                      <i class="ri-shopping-bag-3-fill"></i>
@@ -263,8 +269,8 @@
                <article class="products__card">
                   <img src="assets/img/product-5.png" alt="image" class="products__img">
 
-                  <h3 class="products__name">Italian <br> Pizza</h3>
-                  <span class="products__price">$10</span>
+                  <h3 class="products__name" data-lang-key="products__name_5">Italian <br> Pizza</h3>
+                  <span class="products__price" data-lang-key="products__price_5">$10</span>
 
                   <button class="products__button">
                      <i class="ri-shopping-bag-3-fill"></i>
@@ -277,11 +283,11 @@
          <section class="contact section" id="contact">
             <div class="contact__container container grid">
                <div class="contact__data">
-                  <h2 class="section__title">Contact Now</h2>
+                  <h2 class="section__title" data-lang-key="contactTitle">Contact Now</h2>
 
                   <div class="contact__info grid">
                      <div>
-                        <h3 class="contact__title">Write Us</h3>
+                        <h3 class="contact__title" data-lang-key="writeTitle">Write Us</h3>
 
                         <div class="contact__social">
                            <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank" class="contact__social-link">
@@ -299,7 +305,7 @@
                      </div>
 
                      <div>
-                        <h3 class="contact__title">Delivery</h3>
+                        <h3 class="contact__title" data-lang-key="deliveryTitle">Delivery</h3>
 
                         <address class="contact__address">
                            +00-987-7654-321 <br>
@@ -308,14 +314,14 @@
                      </div>
 
                      <div>
-                        <h3 class="contact__title">Location</h3>
+                        <h3 class="contact__title" data-lang-key="locationTitle">Location</h3>
 
-                        <address class="contact__address">
+                        <address class="contact__address" data-lang-key="address">
                            Lima - Sun City - Peru <br>
                            Av. Moon #4321
                         </address>
 
-                        <a href="https://maps.app.goo.gl/iHTNbLDu7EYtJW2x5" target="_blank" class="contact___map">
+                        <a href="https://maps.app.goo.gl/iHTNbLDu7EYtJW2x5" target="_blank" class="contact___map" data-lang-key="map">
                            <i class="ri-map-pin-fill"></i>
                            <span>View On Map</span>
                         </a>
@@ -337,11 +343,11 @@
       <!--==================== FOOTER ====================-->
       <footer class="footer">
          <div class="footer__container container grid">
-            <a href="#" class="footer__logo">Pizza</a>
+            <a href="#" class="footer__logo" data-lang-key="footer_1">Pizza</a>
 
             <div class="footer__content grid">
                <div>
-                  <h3 class="footer__title">Social</h3>
+                  <h3 class="footer__title" data-lang-key="footer_2">Social</h3>
 
                   <div class="footer__social">
                      <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
@@ -359,7 +365,7 @@
                </div>
 
                <div>
-                  <h3 class="footer__title">Payment Methods</h3>
+                  <h3 class="footer__title" data-lang-key="footer_3">Payment Methods</h3>
 
                   <div class="footer__pay">
                      <img src="assets/img/footer-card-1.png" alt="image" class="footer__pay-img">
@@ -370,22 +376,22 @@
                </div>
 
                <div>
-                  <h3 class="footer__title">Subscribe For Discounts</h3>
+                  <h3 class="footer__title" data-lang-key="footer_4">Subscribe For Discounts</h3>
 
                   <form action="" class="footer__form">
                      <input type="email" placeholder="Email" class="footer__input">
-                     <button type="submit" class="footer__button button">Subscribe</button>
+                     <button type="submit" class="footer__button button" data-lang-key="footer__button">Subscribe</button>
                   </form>
                </div>
             </div>
          </div>
 
          <div class="footer__policy">
-            <a href="#" class="footer__link">Terms & Agreements</a>
-            <a href="#" class="footer__link">Privacy Policy</a>
+            <a href="#" class="footer__link" data-lang-key="link_1">Terms & Agreements</a>
+            <a href="#" class="footer__link" data-lang-key="link_2">Privacy Policy</a>
          </div>
 
-         <span class="footer__copy">
+         <span class="footer__copy" data-lang-key="copy">
             &#169; All Rights Reserved By Bedimcode
          </span>
       </footer>
@@ -403,5 +409,8 @@
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
+
+      <!--=============== Translations JS ===============-->
+      <script src="assets/js/translations.js"></script>
    </body>
 </html>

@@ -757,6 +757,33 @@ img {
   bottom: 3rem;
 }
 
+/*=============== TRANSLATIONS ===============*/
+.nav__lang {
+  display: flex;
+  gap: 10px;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  color: var(--title-color);
+  cursor: pointer;
+  font-family: var(--second-font);
+  font-size: var(--small-font-size);
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.lang-btn.active {
+  background-color: var(--first-color);
+  color: var(--white-color);
+}
+
+.lang-btn:hover {
+  background-color: var(--first-color-alt);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 320px){
